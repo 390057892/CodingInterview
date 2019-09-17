@@ -1,7 +1,11 @@
-package com.offer.zlj.part;
+package com.offer.zlj.part2;
 
-public class Part2 {
+public class offer11 {
 
+
+    public static void main(String[] args) {
+        offer11(new int[]{3, 4, 5, 1, 2});
+    }
 
     /**
      * 剑指offer面试题11 旋转数组中的最小数字
