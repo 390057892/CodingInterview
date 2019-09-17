@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc2bd015-51e3-408c-a899-8539f6e527d0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/offer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/offer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/offer/com/offer/zlj/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/offer/com/offer/zlj/part/Part1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/offer/com/offer/zlj/part/Part2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/offer/zlj/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/offer/zlj/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/offer/zlj/part/Part1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/offer/zlj/part/Part1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +17,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/offer/zlj/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="114">
               <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -37,8 +29,8 @@
       <file leaf-file-name="Part2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/offer/zlj/part/Part2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -46,8 +38,8 @@
       <file leaf-file-name="Part1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/offer/zlj/part/Part1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="120" column="7" lean-forward="true" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
+            <state relative-caret-position="1378">
+              <caret line="120" column="7" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,23 +78,29 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="432" />
-    <option name="y" value="29" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="123" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="CodingInterview" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingInterview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodingInterview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingInterview" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodingInterview" type="b2602c69:ProjectViewProjectNode" />
@@ -126,9 +124,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,19 +188,19 @@
       <updated>1568637918976</updated>
       <workItem from="1568637922947" duration="5237000" />
       <workItem from="1568704459996" duration="7177000" />
+      <workItem from="1568722393698" duration="1085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12414000" />
+    <option name="totallyTimeSpent" value="13499000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="737" y="19" width="1400" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32918552" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -212,11 +208,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21266969" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21266969" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.34609827" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3464448" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -230,6 +226,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32918552" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +236,33 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/offer/zlj/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/zlj/part/Part2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/zlj/part/Part1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2223">
+          <caret line="120" column="7" lean-forward="true" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/offer/zlj/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -268,7 +292,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/offer/zlj/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="114">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -276,24 +300,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/String.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/offer/zlj/part/Part2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="2237" column="18" selection-start-line="2237" selection-start-column="18" selection-end-line="2237" selection-end-column="18" />
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/offer/zlj/part/Part2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/offer/zlj/part/Part1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="120" column="7" lean-forward="true" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
+        <state relative-caret-position="1378">
+          <caret line="120" column="7" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -317,7 +338,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
