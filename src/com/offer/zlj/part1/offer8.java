@@ -1,66 +1,85 @@
 package com.offer.zlj.part1;
 
-import java.util.LinkedList;
-import java.util.Stack;
-
-//将该类作为一个队列
 public class offer8 {
 
     public static void main(String args[]){
-        test();
-    }
 
-    /**
-     * 两个栈建立队列
-     */
-    private static Stack<Integer> stack1 = new Stack<>();
-    private static Stack<Integer> stack2 = new Stack<>();
+        TreeNode t1 = new TreeNode(1);
+        TreeNode t2 = new TreeNode(2);
+        TreeNode t3 = new TreeNode(3);
+        TreeNode t4 = new TreeNode(4);
+        TreeNode t5 = new TreeNode(5);
+        TreeNode t6 = new TreeNode(6);
+        TreeNode t7 = new TreeNode(7);
+        TreeNode t8 = new TreeNode(8);
+        TreeNode t9 = new TreeNode(9);
 
-    public static void test(){
-        offer8 offer8 = new offer8();
-        offer8.push(7);
-        offer8.push(8);
-        offer8.push(9);
-        System.out.println("输出stack1的内容："+stack1);
-        System.out.println("输出stack2的内容："+stack2);
+        t1.left = t2;
+        t1.right = t3;
+
+        t2.left = t4;
+        t2.right = t5;
+
+        t3.left = t6;
+        t3.right = t7;
+
+        t5.left = t8;
+        t5.right = t9;
+
+        t8.parent = t5;
+        t9.parent = t5;
+
+        t5.parent = t2;
+        t4.parent = t2;
+
+        t6.parent = t3;
+        t7.parent = t3;
+
+        t2.parent = t1;
+        t3.parent = t1;
 
         try {
-            System.out.println(offer8.pop());
-            System.out.println(offer8.pop());
+            System.out.println(getNext(t5).val);
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        offer8.push(10);
-        System.out.println("输出stack1的内容："+stack1);
-        System.out.println("输出stack2的内容："+stack2);
-
-        try {
-            System.out.println(offer8.pop());
-            System.out.println(offer8.pop());
-            System.out.println(offer8.pop());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-
     }
 
-    //进栈
-    public void push(int i){
-        stack1.push(i);
-    }
 
-    //出栈 删除头部元素
-    public int pop()throws Exception{
-        if (stack1.isEmpty()&&stack2.isEmpty()){
-            throw new Exception("栈为空");
+
+    public static TreeNode getNext (TreeNode tree)throws Exception{
+        if (tree==null){
+            throw new Exception("输入节点为空");
         }
-        if (stack2.isEmpty()){
-            while (!stack1.isEmpty()) {
-                stack2.push(stack1.pop());
+        if (tree.right!=null){ //如果有右节点，说明这是个根节点，中序遍历下一个为它右子树的最左子节点
+            tree = tree.right;
+            while (tree.left!=null){
+                tree = tree.left;
             }
+            return tree;
         }
-        return stack2.pop();
+
+        //无右节点,则中序遍历的下个节点为父节点
+        while (tree.parent!=null) {
+            if (tree.parent.left==tree) {
+                return tree.parent;
+            }
+            tree = tree.parent;
+        }
+        throw new Exception("无下一个节点");
     }
+
+
+    public static class TreeNode{
+
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode parent;
+
+        public TreeNode(int val) {
+            this.val = val;
+        }
+    }
+
 }
