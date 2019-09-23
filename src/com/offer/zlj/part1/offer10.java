@@ -8,7 +8,7 @@ public class offer10 {
     }
 
 
-    //最原始的递归实现，但随着i的增大,时间会剧增.
+    //最原始的递归实现，但随着i的增大,时间会剧增. 不推荐
     public static int fb1(int i) {
         if (i == 0) {
             return 0;
