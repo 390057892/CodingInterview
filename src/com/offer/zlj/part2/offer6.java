@@ -1,4 +1,4 @@
-package com.offer.zlj.part1;
+package com.offer.zlj.part2;
 
 
 import java.util.ArrayList;
@@ -16,7 +16,9 @@ public class offer6 {
         node2.next = node3;
         node3.next = node4;
         node4.next = node5;
+
         System.out.println(offer6(node1));
+
     }
 
 
@@ -56,4 +58,6 @@ public class offer6 {
             this.val = val;
         }
     }
+
+
 }

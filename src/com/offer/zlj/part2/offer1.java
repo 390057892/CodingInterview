@@ -1,4 +1,4 @@
-package com.offer.zlj.part1;
+package com.offer.zlj.part2;
 
 
 public class offer1 {
