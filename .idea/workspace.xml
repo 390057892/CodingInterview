@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc2bd015-51e3-408c-a899-8539f6e527d0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/offer/zlj/part1/offer10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/offer/zlj/part1/utils/Ehan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/offer/zlj/part1/utils/Lhan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/offer/zlj/part3/offer10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/offer/zlj/part4/offer10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/offer/zlj/part1/offer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/offer/zlj/part1/offer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/offer/zlj/part1/offer8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/offer/zlj/part1/offer8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/offer/zlj/part1/offer9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/offer/zlj/part1/offer9.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +30,8 @@
       <file leaf-file-name="offer11.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/offer/zlj/part2/offer11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+            <state relative-caret-position="160">
+              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -114,7 +105,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="586" />
     <option name="y" value="106" />
     <option name="width" value="1168" />
@@ -293,15 +284,15 @@
       <workItem from="1568704459996" duration="7177000" />
       <workItem from="1568722393698" duration="4826000" />
       <workItem from="1568875694379" duration="9194000" />
-      <workItem from="1568948977338" duration="9587000" />
+      <workItem from="1568948977338" duration="10562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36021000" />
+    <option name="totallyTimeSpent" value="36996000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="586" y="106" width="1168" height="892" extended-state="1" />
+    <frame x="586" y="106" width="1168" height="892" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -313,8 +304,8 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2430279" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32802126" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2430279" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32802126" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2400722" />
@@ -694,8 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/offer/zlj/part2/offer11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        <state relative-caret-position="160">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
         </state>
       </provider>
     </entry>
