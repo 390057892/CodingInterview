@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc2bd015-51e3-408c-a899-8539f6e527d0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/offer/zlj/part2/offer12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/offer/zlj/part2/offer15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/offer/zlj/part2/offer16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/offer/zlj/part2/offer17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/offer/zlj/part1/offer10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/offer/zlj/part1/offer10.java" afterDir="false" />
-    </list>
+    <list default="true" id="bc2bd015-51e3-408c-a899-8539f6e527d0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,7 +37,7 @@
       <file leaf-file-name="offer17.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/offer/zlj/part2/offer17.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="-20">
               <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
             </state>
           </provider>
@@ -311,16 +304,15 @@
       <workItem from="1568722393698" duration="4826000" />
       <workItem from="1568875694379" duration="9194000" />
       <workItem from="1568948977338" duration="10562000" />
-      <workItem from="1569200933965" duration="10204000" />
+      <workItem from="1569200933965" duration="12087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47200000" />
+    <option name="totallyTimeSpent" value="49083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -702,7 +694,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/offer/zlj/part2/offer17.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="-20">
           <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
