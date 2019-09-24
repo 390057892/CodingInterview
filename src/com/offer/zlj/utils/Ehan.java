@@ -1,4 +1,4 @@
-package com.offer.zlj.part1.utils;
+package com.offer.zlj.utils;
 
 
 //饿汉模式 线程安全、耗费资源

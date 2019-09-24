@@ -1,8 +1,8 @@
-package com.offer.zlj.part1;
+package com.offer.zlj.part2;
 
 
-import com.offer.zlj.part1.utils.Ehan;
-import com.offer.zlj.part1.utils.Lhan;
+import com.offer.zlj.utils.Ehan;
+import com.offer.zlj.utils.Lhan;
 
 public class offer2 {
 

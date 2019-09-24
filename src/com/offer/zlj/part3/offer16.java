@@ -1,4 +1,4 @@
-package com.offer.zlj.part2;
+package com.offer.zlj.part3;
 
 //数值的整数乘方
 public class offer16 {

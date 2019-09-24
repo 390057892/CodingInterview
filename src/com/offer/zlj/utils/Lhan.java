@@ -1,4 +1,4 @@
-package com.offer.zlj.part1.utils;
+package com.offer.zlj.utils;
 
 
 //懒汉模式

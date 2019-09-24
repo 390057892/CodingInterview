@@ -1,4 +1,4 @@
-package com.offer.zlj.part1;
+package com.offer.zlj.part2;
 
 //求斐波那契数列
 public class offer10 {

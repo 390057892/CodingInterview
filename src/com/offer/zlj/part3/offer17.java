@@ -1,4 +1,4 @@
-package com.offer.zlj.part2;
+package com.offer.zlj.part3;
 
 
 //打印1到最大的n位数
