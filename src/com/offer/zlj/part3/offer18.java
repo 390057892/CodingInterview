@@ -7,12 +7,14 @@ public class offer18 {
         ListNode node1 = new ListNode(1);
         ListNode node2 = new ListNode(2);
         ListNode node3 = new ListNode(3);
+        ListNode node7 = new ListNode(3);
         ListNode node4 = new ListNode(4);
         ListNode node5 = new ListNode(5);
         ListNode node6 = new ListNode(5);
         node1.next = node2;
         node2.next = node3;
-        node3.next = node4;
+        node3.next = node7;
+        node7.next = node4;
         node4.next = node5;
         node5.next = node6;
 
@@ -66,17 +68,49 @@ public class offer18 {
 
     //扩展 删除链表重复的节点
     private static void deleteNode2(ListNode headNode) {
-        if (headNode == null) {
-            return;
-        }
-        ListNode oneNode = headNode;
-        ListNode twoNode = headNode.next;
-        while (headNode.next!=null){
+//        if (headNode == null) {
+//            return ;
+//        }
+//        ListNode preNode = headNode;
+//        ListNode curNode = headNode;
+//        ListNode nextNode = curNode.next;
+//        while (curNode.next != null) {
+//
+//            if (curNode.val != nextNode.val) {
+//                if (nextNode.next!=null) {
+//                    curNode = curNode.next;
+//                    nextNode = curNode.next;
+//                }else {
+//                    preNode = preNode.next;
+//                    curNode = preNode.next;
+//                    nextNode = curNode.next;
+//                }
+//            } else {
+//                if (nextNode.next != null) {
+//                    curNode = nextNode.next;
+//                    nextNode = curNode.next;
+//                } else {
+//                    //尾节点重复
+//                    curNode.next = null;
+//                }
+//            }
+//        }
 
-            if (oneNode.val==twoNode.val){
-                oneNode.next = twoNode.next;
+        ListNode first = new ListNode(-1);
+        first.next = headNode;
+        ListNode last = first;
+        ListNode p = headNode;
+        while(p!=null&&p.next!=null){
+            if(p.val==p.next.val){
+                int val = p.val;
+                while(p!=null&&p.val==val){
+                    p = p.next;
+                    last.next = p;
+                }
+            }else{
+                last = p;
+                p = p.next;
             }
-            headNode = headNode.next;
         }
     }
 
